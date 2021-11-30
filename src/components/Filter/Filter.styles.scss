@@ -1,0 +1,27 @@
+.filter {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(65,188,156);
+    justify-content: center;
+    align-items: center;
+    button {
+        margin: 0 5px;
+        height: 85%;
+        border: none;
+        color: white;
+        filter: brightness(100%) !important;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .positive_btn {
+        background-color: rgb(29, 224, 107);
+    }
+    .all_btn {
+        background-color: black;
+    }
+    .negative_btn {
+        background-color: rgb(232, 14, 28);
+    }
+    
+}

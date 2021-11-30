@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(13, auto);
+    height: 80vh;
+    width: 100%;
+    grid-auto-rows: auto;
+    column-gap: 5px;
+    row-gap: 5px;
+
+    .cell_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: grey; 
+        .cell {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        span {
+            position: absolute;
+            color: white;
+        }
+    }
+}
